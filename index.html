@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Менеджер контактів</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Менеджер контактів</h1>
+        <form id="contactForm">
+            <input type="text" id="firstName" placeholder="Ім'я" required>
+            <input type="text" id="lastName" placeholder="Прізвище" required>
+            <input type="text" id="phone" placeholder="Телефон" required>
+            <input type="email" id="email" placeholder="Електронна адреса" required>
+            <button type="submit" id="addContactButton">Додати контакт</button>
+        </form>
+        <ul id="contactList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
